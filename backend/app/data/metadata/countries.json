@@ -1,0 +1,62 @@
+[
+  {
+    "iso3": "USA",
+    "name": "United States",
+    "region": "North America",
+    "is_supported": true
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "region": "Asia",
+    "is_supported": true
+  },
+  {
+    "iso3": "DEU",
+    "name": "Germany",
+    "region": "Europe",
+    "is_supported": true
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japan",
+    "region": "Asia",
+    "is_supported": true
+  },
+  {
+    "iso3": "IND",
+    "name": "India",
+    "region": "Asia",
+    "is_supported": true
+  },
+  {
+    "iso3": "KOR",
+    "name": "South Korea",
+    "region": "Asia",
+    "is_supported": true
+  },
+  {
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "region": "Europe",
+    "is_supported": true
+  },
+  {
+    "iso3": "FRA",
+    "name": "France",
+    "region": "Europe",
+    "is_supported": true
+  },
+  {
+    "iso3": "VNM",
+    "name": "Vietnam",
+    "region": "Asia",
+    "is_supported": true
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "region": "Asia",
+    "is_supported": true
+  }
+]
