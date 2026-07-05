@@ -14,8 +14,16 @@ export class ApiError extends Error {
   }
 }
 
-export async function apiGet<T>(path: string): Promise<T> {
-  const response = await fetch(`${API_BASE_URL}${path}`)
+export function apiGet<T>(path: string): Promise<T> {
+  return request<T>(path)
+}
+
+export function apiPost<T>(path: string): Promise<T> {
+  return request<T>(path, { method: 'POST' })
+}
+
+async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  const response = await fetch(`${API_BASE_URL}${path}`, init)
 
   if (!response.ok) {
     let code = 'UNKNOWN_ERROR'

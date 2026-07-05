@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
-import { useQuery } from '@tanstack/react-query'
-import { ArrowLeft } from 'lucide-react'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { ArrowLeft, Loader2, RefreshCw } from 'lucide-react'
 import { getCountryDashboard } from '../api/dashboard'
+import { refreshCountry } from '../api/refresh'
 import { ApiError } from '../api/client'
 import { LoadingState } from '../components/ui/LoadingState'
 import { ErrorState } from '../components/ui/ErrorState'
@@ -60,6 +61,48 @@ function FastestGrowingTable({ sectors }: { sectors: ImportSector[] }) {
   )
 }
 
+function RefreshDataButton({ iso3 }: { iso3: string }) {
+  const queryClient = useQueryClient()
+  const mutation = useMutation({
+    mutationFn: () => refreshCountry(iso3),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['dashboard', iso3] })
+      queryClient.invalidateQueries({ queryKey: ['countries'] })
+    },
+  })
+
+  return (
+    <div className="mt-2 flex flex-col items-center gap-2">
+      <button
+        type="button"
+        onClick={() => mutation.mutate()}
+        disabled={mutation.isPending}
+        className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-60"
+      >
+        {mutation.isPending ? (
+          <>
+            <Loader2 className="h-4 w-4 animate-spin" /> Refreshing… this may take a minute
+          </>
+        ) : (
+          <>
+            <RefreshCw className="h-4 w-4" /> Refresh data
+          </>
+        )}
+      </button>
+      {mutation.isError ? (
+        <p className="text-sm text-rose-600">
+          {mutation.error instanceof ApiError
+            ? mutation.error.message
+            : 'Refresh failed. Please try again.'}
+        </p>
+      ) : null}
+      <Link to="/countries" className="text-sm font-medium text-blue-600">
+        ← Back to countries
+      </Link>
+    </div>
+  )
+}
+
 export function CountryDashboardPage() {
   const { iso3 = '' } = useParams<{ iso3: string }>()
   const { data, isPending, isError, error, refetch } = useQuery({
@@ -77,11 +120,7 @@ export function CountryDashboardPage() {
         <EmptyState
           title="Dashboard data is not cached yet."
           message="This country is available in the search index, but its dashboard data has not been prepared. Refresh data to generate the dashboard."
-          action={
-            <Link to="/countries" className="mt-2 text-sm font-medium text-blue-600">
-              ← Back to countries
-            </Link>
-          }
+          action={<RefreshDataButton iso3={iso3.toUpperCase()} />}
         />
       )
     }

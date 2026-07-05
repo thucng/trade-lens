@@ -36,15 +36,11 @@ function CountryCard({ country }: { country: Country }) {
         {country.is_cached ? (
           <span className="font-medium text-blue-600">Open dashboard →</span>
         ) : (
-          <span className="text-slate-400">Data is not prepared yet</span>
+          <span className="text-slate-400">Data is not prepared yet — open to refresh</span>
         )}
       </p>
     </div>
   )
-
-  if (!country.is_cached) {
-    return <div>{body}</div>
-  }
 
   return (
     <Link to={`/countries/${country.iso3}`} className="group block h-full">
