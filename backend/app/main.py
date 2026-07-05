@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.api import countries, dashboard
+
 app = FastAPI(title="TradeLens")
 
 app.add_middleware(
@@ -15,3 +17,7 @@ app.add_middleware(
 @app.get("/api/health")
 def health_check():
     return {"status": "ok", "app": "TradeLens"}
+
+
+app.include_router(countries.router, prefix="/api")
+app.include_router(dashboard.router, prefix="/api")

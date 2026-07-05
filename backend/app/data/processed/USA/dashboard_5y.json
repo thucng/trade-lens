@@ -1,0 +1,889 @@
+{
+  "country": {
+    "iso3": "USA",
+    "name": "United States",
+    "region": "North America"
+  },
+  "period": {
+    "from_year": 2020,
+    "to_year": 2024,
+    "latest_available_year": 2024,
+    "year_count": 5
+  },
+  "summary": {
+    "total_import_latest_usd": 3200000000000,
+    "total_export_latest_usd": 2100000000000,
+    "trade_balance_latest_usd": -1100000000000,
+    "import_cagr_5y": 0.0746,
+    "export_cagr_5y": 0.0703,
+    "top_import_sector_code": "85",
+    "top_import_sector_name": "Electrical machinery and equipment",
+    "top_import_sector_share": 0.18
+  },
+  "imports_timeseries": [
+    {
+      "year": 2020,
+      "value_usd": 2400000000000,
+      "yoy_growth": null
+    },
+    {
+      "year": 2021,
+      "value_usd": 2700000000000,
+      "yoy_growth": 0.125
+    },
+    {
+      "year": 2022,
+      "value_usd": 3000000000000,
+      "yoy_growth": 0.1111
+    },
+    {
+      "year": 2023,
+      "value_usd": 3100000000000,
+      "yoy_growth": 0.0333
+    },
+    {
+      "year": 2024,
+      "value_usd": 3200000000000,
+      "yoy_growth": 0.0323
+    }
+  ],
+  "exports_timeseries": [
+    {
+      "year": 2020,
+      "value_usd": 1600000000000,
+      "yoy_growth": null
+    },
+    {
+      "year": 2021,
+      "value_usd": 1750000000000,
+      "yoy_growth": 0.0938
+    },
+    {
+      "year": 2022,
+      "value_usd": 1900000000000,
+      "yoy_growth": 0.0857
+    },
+    {
+      "year": 2023,
+      "value_usd": 2000000000000,
+      "yoy_growth": 0.0526
+    },
+    {
+      "year": 2024,
+      "value_usd": 2100000000000,
+      "yoy_growth": 0.05
+    }
+  ],
+  "trade_balance_timeseries": [
+    {
+      "year": 2020,
+      "value_usd": -800000000000
+    },
+    {
+      "year": 2021,
+      "value_usd": -950000000000
+    },
+    {
+      "year": 2022,
+      "value_usd": -1100000000000
+    },
+    {
+      "year": 2023,
+      "value_usd": -1100000000000
+    },
+    {
+      "year": 2024,
+      "value_usd": -1100000000000
+    }
+  ],
+  "import_sectors": [
+    {
+      "hs2_code": "85",
+      "sector_name": "Electrical machinery and equipment",
+      "latest_import_value_usd": 576000000000,
+      "share_of_total_imports": 0.18,
+      "cagr_5y": 0.0578,
+      "latest_yoy_growth": 0.0323,
+      "import_demand_index": 94.6,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 460000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 490000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 535000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 558000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 576000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "84",
+      "sector_name": "Machinery and mechanical appliances",
+      "latest_import_value_usd": 512000000000,
+      "share_of_total_imports": 0.16,
+      "cagr_5y": 0.041,
+      "latest_yoy_growth": 0.0261,
+      "import_demand_index": 78.3,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 436000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 455000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 480000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 499000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 512000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "87",
+      "sector_name": "Vehicles other than railway",
+      "latest_import_value_usd": 384000000000,
+      "share_of_total_imports": 0.12,
+      "cagr_5y": 0.0386,
+      "latest_yoy_growth": 0.0267,
+      "import_demand_index": 61.6,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 330000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 346000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 362000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 374000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 384000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "27",
+      "sector_name": "Mineral fuels and oils",
+      "latest_import_value_usd": 288000000000,
+      "share_of_total_imports": 0.09,
+      "cagr_5y": 0.021,
+      "latest_yoy_growth": -0.0137,
+      "import_demand_index": 41.0,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 265000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 301000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 322000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 292000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 288000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "30",
+      "sector_name": "Pharmaceutical products",
+      "latest_import_value_usd": 224000000000,
+      "share_of_total_imports": 0.07,
+      "cagr_5y": 0.0683,
+      "latest_yoy_growth": 0.0566,
+      "import_demand_index": 57.4,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 172000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 185000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 199000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 212000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 224000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "90",
+      "sector_name": "Optical, medical and precision instruments",
+      "latest_import_value_usd": 160000000000,
+      "share_of_total_imports": 0.05,
+      "cagr_5y": 0.0453,
+      "latest_yoy_growth": 0.0323,
+      "import_demand_index": 37.9,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 134000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 141000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 148000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 155000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 160000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "39",
+      "sector_name": "Plastics and articles thereof",
+      "latest_import_value_usd": 128000000000,
+      "share_of_total_imports": 0.04,
+      "cagr_5y": 0.0339,
+      "latest_yoy_growth": 0.0159,
+      "import_demand_index": 28.2,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 112000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 117000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 121000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 126000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 128000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "71",
+      "sector_name": "Pearls, precious stones and metals",
+      "latest_import_value_usd": 112000000000,
+      "share_of_total_imports": 0.035,
+      "cagr_5y": 0.0591,
+      "latest_yoy_growth": 0.0667,
+      "import_demand_index": 39.2,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 89000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 95000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 100000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 105000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 112000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "94",
+      "sector_name": "Furniture; bedding; lamps",
+      "latest_import_value_usd": 96000000000,
+      "share_of_total_imports": 0.03,
+      "cagr_5y": 0.0107,
+      "latest_yoy_growth": 0.0105,
+      "import_demand_index": 12.5,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 92000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 93000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 94000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 95000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 96000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "61",
+      "sector_name": "Apparel, knitted or crocheted",
+      "latest_import_value_usd": 80000000000,
+      "share_of_total_imports": 0.025,
+      "cagr_5y": 0.0096,
+      "latest_yoy_growth": 0.005,
+      "import_demand_index": 10.0,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 77000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 78000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 79000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 79600000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 80000000000
+        }
+      ]
+    }
+  ],
+  "top_import_sectors": [
+    {
+      "hs2_code": "85",
+      "sector_name": "Electrical machinery and equipment",
+      "latest_import_value_usd": 576000000000,
+      "share_of_total_imports": 0.18,
+      "cagr_5y": 0.0578,
+      "latest_yoy_growth": 0.0323,
+      "import_demand_index": 94.6,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 460000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 490000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 535000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 558000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 576000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "84",
+      "sector_name": "Machinery and mechanical appliances",
+      "latest_import_value_usd": 512000000000,
+      "share_of_total_imports": 0.16,
+      "cagr_5y": 0.041,
+      "latest_yoy_growth": 0.0261,
+      "import_demand_index": 78.3,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 436000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 455000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 480000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 499000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 512000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "87",
+      "sector_name": "Vehicles other than railway",
+      "latest_import_value_usd": 384000000000,
+      "share_of_total_imports": 0.12,
+      "cagr_5y": 0.0386,
+      "latest_yoy_growth": 0.0267,
+      "import_demand_index": 61.6,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 330000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 346000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 362000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 374000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 384000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "27",
+      "sector_name": "Mineral fuels and oils",
+      "latest_import_value_usd": 288000000000,
+      "share_of_total_imports": 0.09,
+      "cagr_5y": 0.021,
+      "latest_yoy_growth": -0.0137,
+      "import_demand_index": 41.0,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 265000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 301000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 322000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 292000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 288000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "30",
+      "sector_name": "Pharmaceutical products",
+      "latest_import_value_usd": 224000000000,
+      "share_of_total_imports": 0.07,
+      "cagr_5y": 0.0683,
+      "latest_yoy_growth": 0.0566,
+      "import_demand_index": 57.4,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 172000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 185000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 199000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 212000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 224000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "90",
+      "sector_name": "Optical, medical and precision instruments",
+      "latest_import_value_usd": 160000000000,
+      "share_of_total_imports": 0.05,
+      "cagr_5y": 0.0453,
+      "latest_yoy_growth": 0.0323,
+      "import_demand_index": 37.9,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 134000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 141000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 148000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 155000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 160000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "39",
+      "sector_name": "Plastics and articles thereof",
+      "latest_import_value_usd": 128000000000,
+      "share_of_total_imports": 0.04,
+      "cagr_5y": 0.0339,
+      "latest_yoy_growth": 0.0159,
+      "import_demand_index": 28.2,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 112000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 117000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 121000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 126000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 128000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "71",
+      "sector_name": "Pearls, precious stones and metals",
+      "latest_import_value_usd": 112000000000,
+      "share_of_total_imports": 0.035,
+      "cagr_5y": 0.0591,
+      "latest_yoy_growth": 0.0667,
+      "import_demand_index": 39.2,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 89000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 95000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 100000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 105000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 112000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "94",
+      "sector_name": "Furniture; bedding; lamps",
+      "latest_import_value_usd": 96000000000,
+      "share_of_total_imports": 0.03,
+      "cagr_5y": 0.0107,
+      "latest_yoy_growth": 0.0105,
+      "import_demand_index": 12.5,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 92000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 93000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 94000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 95000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 96000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "61",
+      "sector_name": "Apparel, knitted or crocheted",
+      "latest_import_value_usd": 80000000000,
+      "share_of_total_imports": 0.025,
+      "cagr_5y": 0.0096,
+      "latest_yoy_growth": 0.005,
+      "import_demand_index": 10.0,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 77000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 78000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 79000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 79600000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 80000000000
+        }
+      ]
+    }
+  ],
+  "fastest_growing_import_sectors": [
+    {
+      "hs2_code": "30",
+      "sector_name": "Pharmaceutical products",
+      "latest_import_value_usd": 224000000000,
+      "share_of_total_imports": 0.07,
+      "cagr_5y": 0.0683,
+      "latest_yoy_growth": 0.0566,
+      "import_demand_index": 57.4,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 172000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 185000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 199000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 212000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 224000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "71",
+      "sector_name": "Pearls, precious stones and metals",
+      "latest_import_value_usd": 112000000000,
+      "share_of_total_imports": 0.035,
+      "cagr_5y": 0.0591,
+      "latest_yoy_growth": 0.0667,
+      "import_demand_index": 39.2,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 89000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 95000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 100000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 105000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 112000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "85",
+      "sector_name": "Electrical machinery and equipment",
+      "latest_import_value_usd": 576000000000,
+      "share_of_total_imports": 0.18,
+      "cagr_5y": 0.0578,
+      "latest_yoy_growth": 0.0323,
+      "import_demand_index": 94.6,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 460000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 490000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 535000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 558000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 576000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "90",
+      "sector_name": "Optical, medical and precision instruments",
+      "latest_import_value_usd": 160000000000,
+      "share_of_total_imports": 0.05,
+      "cagr_5y": 0.0453,
+      "latest_yoy_growth": 0.0323,
+      "import_demand_index": 37.9,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 134000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 141000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 148000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 155000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 160000000000
+        }
+      ]
+    },
+    {
+      "hs2_code": "84",
+      "sector_name": "Machinery and mechanical appliances",
+      "latest_import_value_usd": 512000000000,
+      "share_of_total_imports": 0.16,
+      "cagr_5y": 0.041,
+      "latest_yoy_growth": 0.0261,
+      "import_demand_index": 78.3,
+      "timeseries": [
+        {
+          "year": 2020,
+          "value_usd": 436000000000
+        },
+        {
+          "year": 2021,
+          "value_usd": 455000000000
+        },
+        {
+          "year": 2022,
+          "value_usd": 480000000000
+        },
+        {
+          "year": 2023,
+          "value_usd": 499000000000
+        },
+        {
+          "year": 2024,
+          "value_usd": 512000000000
+        }
+      ]
+    }
+  ],
+  "data_freshness": {
+    "source": "UN Comtrade",
+    "source_url": "https://comtradeplus.un.org/",
+    "frequency": "Annual",
+    "classification": "HS2",
+    "last_refreshed_at": "2026-07-05T10:00:00+02:00",
+    "latest_available_year": 2024,
+    "notes": "Official trade data may lag behind the current calendar year."
+  }
+}
