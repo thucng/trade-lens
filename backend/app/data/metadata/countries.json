@@ -3,60 +3,70 @@
     "iso3": "USA",
     "name": "United States",
     "region": "North America",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 842
   },
   {
     "iso3": "CHN",
     "name": "China",
     "region": "Asia",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 156
   },
   {
     "iso3": "DEU",
     "name": "Germany",
     "region": "Europe",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 276
   },
   {
     "iso3": "JPN",
     "name": "Japan",
     "region": "Asia",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 392
   },
   {
     "iso3": "IND",
     "name": "India",
     "region": "Asia",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 699
   },
   {
     "iso3": "KOR",
     "name": "South Korea",
     "region": "Asia",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 410
   },
   {
     "iso3": "GBR",
     "name": "United Kingdom",
     "region": "Europe",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 826
   },
   {
     "iso3": "FRA",
     "name": "France",
     "region": "Europe",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 251
   },
   {
     "iso3": "VNM",
     "name": "Vietnam",
     "region": "Asia",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 704
   },
   {
     "iso3": "IDN",
     "name": "Indonesia",
     "region": "Asia",
-    "is_supported": true
+    "is_supported": true,
+    "comtrade_code": 360
   }
 ]

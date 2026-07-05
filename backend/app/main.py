@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api import countries, dashboard
+from app.api import countries, dashboard, refresh
 
 app = FastAPI(title="TradeLens")
 
@@ -24,3 +24,4 @@ def health_check():
 
 app.include_router(countries.router, prefix="/api")
 app.include_router(dashboard.router, prefix="/api")
+app.include_router(refresh.router, prefix="/api")
