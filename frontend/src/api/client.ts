@@ -1,5 +1,6 @@
-const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8000/api'
+// Dev requests go through the Vite proxy (same origin), so no CORS is needed.
+// Set VITE_API_BASE_URL to point at a remote backend in other environments.
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? '/api'
 
 export class ApiError extends Error {
   status: number
