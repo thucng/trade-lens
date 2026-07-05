@@ -3,3 +3,6 @@ uvicorn[standard]
 pydantic
 orjson
 python-dotenv
+httpx
+tenacity
+pytest
